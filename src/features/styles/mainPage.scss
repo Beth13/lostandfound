@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+
+    &-cards {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border-radius: 10px;
+      margin-top: 50px;
+      padding: 50px;
+    }
+
+    &-btn {
+      transition: all 500ms ease;
+      display: block;
+      width: 60%;
+      margin: auto;
+      border: none;
+      border-radius: 10px;
+      background-color: #99adae;
+      line-height: 48px;
+      font-size: 24px;
+      font-weight: 600;
+      cursor: pointer;
+
+      &-area {
+        text-decoration: none;
+      }
+
+      &:hover {
+        color: white;
+        background-color: #606d6e;
+      }
+    }
+  }
+}
+
+.empty {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}

@@ -1,0 +1,36 @@
+.createform {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.form-control__checkbox {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-title {
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+select {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  height: 40px;
+  cursor: pointer;
+}

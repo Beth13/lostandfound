@@ -1,0 +1,106 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(222, 217, 217);
+  border-radius: 10px;
+  padding: 45px;
+
+  &__title {
+    font-size: 36px;
+    margin: 0 0 30px;
+  }
+
+  &__desc {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.582);
+
+    &-img {
+      max-width: 350px;
+      max-height: 350px;
+      border-radius: 10px;
+
+      &__empty {
+        max-height: 250px;
+        margin: auto;
+      }
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+    }
+  }
+
+  &__cafedra {
+    background-color: #99adae;
+    border-radius: 10px;
+    font-size: 22px;
+    line-height: 30px;
+    width: 40%;
+    margin: 5px auto;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  &__span {
+    font-size: 24px;
+    margin: 0;
+    margin: 25px auto;
+    line-height: 36px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  &__status {
+    font-size: 22px;
+    line-height: 40px;
+    background-color: rgb(246, 134, 134);
+    color: rgb(34, 33, 33);
+    width: 40%;
+    margin: 25px auto;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+
+  &__btn {
+    transition: all 500ms ease;
+
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #99adae;
+    line-height: 36px;
+    font-size: 24px;
+    padding: 15px;
+
+    &:hover {
+      color: white;
+      background-color: #606d6e;
+    }
+  }
+
+  &__info {
+    display: flex;
+    margin: 10px auto 30px;
+    flex-direction: column;
+    padding: 20px 60px 0;
+    border: 5px solid white;
+    border-radius: 10px;
+
+    &-item {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  }
+}
